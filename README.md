@@ -1,6 +1,6 @@
 ```console
 gsettings set org.gnome.desktop.wm.preferences button-layout ':close'
-sudo pacman -S nemo nemo-fileroller sway mako fuzzel waybar swaybg swayidle swaylock xdg-desktop-portal-wlr accountsservice
+sudo pacman -S nemo nemo-fileroller sway mako fuzzel waybar swaybg swayidle swaylock xdg-desktop-portal-wlr gnome-polkit accountsservice
 
 git clone https://github.com/Sobserius/sway.git ~/sway
 ln -sf ~/sway/sway/config ~/.config/sway/config
