@@ -1,0 +1,101 @@
+{
+    "layer": "top",
+    "position": "top",
+    "height": 30,
+
+    "modules-left": [
+        "sway/workspaces"
+    ],
+
+    "modules-center": [
+        "clock#date",
+        "clock#time",
+    ],
+
+    "modules-right": [
+        "sway/language",
+        "network",
+        "pulseaudio",
+        "battery",
+        "tray"
+    ],
+
+    // -------------------------------------------------------------------------
+    // Workspaces 
+    // -------------------------------------------------------------------------
+    "sway/workspaces": {
+        "all-outputs": false,
+        "disable-scroll": true,
+        "format": "{name}",  
+        "format-icons":{}    
+    },
+
+    // -------------------------------------------------------------------------
+    // Clock
+    // -------------------------------------------------------------------------
+    "clock#time": {
+        "interval": 1,
+        "format": "{:%H:%M:%S}",
+        "tooltip": false
+    },
+
+    "clock#date": {
+      "interval": 10,
+      "format": "{:%e %b %Y}",
+      "tooltip-format": "{:%e %B %Y}"
+    },
+
+    // -------------------------------------------------------------------------
+    // Keyboard layout 
+    // -------------------------------------------------------------------------
+    "sway/language": {
+        "format": "LNG: {}",
+        "tooltip": false,
+        "on-click": "swaymsg input type:keyboard xkb_switch_layout next"
+    },
+    // -------------------------------------------------------------------------
+    // Network
+    // -------------------------------------------------------------------------
+    "network": {
+        "interval": 5,
+        "format-wifi": "W: {essid} ({signalStrength}%)",
+        "format-ethernet": "E: {ifname}",
+        "format-disconnected": "Disconnected",
+        "tooltip-format": "{ifname}: {ipaddr}",
+        "on-click": "${term:-kitty} -e nmtui"
+    },
+
+    // -------------------------------------------------------------------------
+    // Volume
+    // -------------------------------------------------------------------------
+    "pulseaudio": {
+        "scroll-step": 5,
+        "format": "VOL: {volume}%",
+        "format-muted": "MUTED",
+        "on-click": "pactl set-sink-mute @DEFAULT_SINK@ toggle",
+        "on-right-click": "pavucontrol",
+        "tooltip": false
+    },
+
+    // -------------------------------------------------------------------------
+    // Battery
+    // -------------------------------------------------------------------------
+    "battery": {
+        "interval": 10,
+        "states": {
+            "warning": 30,
+            "critical": 15
+        },
+        "format": "BAT:  {capacity}%", 
+        "format-discharging": "BAT:  {capacity}%",
+        "tooltip": false
+    },
+
+    // -------------------------------------------------------------------------
+    // System Tray
+    // -------------------------------------------------------------------------
+    "tray": {
+        "icon-size": 21,
+        "spacing": 10
+    }
+}
