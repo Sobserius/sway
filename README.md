@@ -9,3 +9,12 @@ ln -sf ~/sway/waybar/style.css ~/.config/waybar/style.css
 ln -sf ~/sway/mako/config ~/.config/mako/config
 ln -sf ~/sway/fuzzel/fuzzel.ini ~/.config/fuzzel/fuzzel.ini
 ```
+Remove KDE: 
+```console
+sudo pacman -R konsole dolphin plasma-desktop
+sudo pacman -R libkscreen kmenuedit kglobalacceld kdecoration kde-cli-tools knighttime kpipewire kscreenlocker ksystemstats kwayland kwin plasma-workspace-wallpapers plasma5support polkit-kde-agent xdg-desktop-portal-kde powerdevil plasma-workspace breeze aurorae plasma-pa plasma-integration
+```
+Optional:
+```console
+sudo pacman -Rns $(pacman -Qtdq)
+```
