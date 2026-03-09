@@ -43,6 +43,7 @@ output * bg /home/sob/sway.jpg fill
 # your displays after another 300 seconds, and turn your screens back on when
 # resumed. It will also lock your screen before your computer goes to sleep.
 exec /usr/lib/polkit-gnome/polkit-gnome-authentication-agent-1 
+exec --no-startup-id /usr/lib/xdg-desktop-portal -r 
 exec swayidle -w timeout 300 'swaylock -f -c 000000'
 exec mako
 exec waybar
