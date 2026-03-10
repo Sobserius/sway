@@ -17,4 +17,5 @@ sudo pacman -R libkscreen kmenuedit kglobalacceld kdecoration kde-cli-tools knig
 Optional:
 ```console
 sudo pacman -Rns $(pacman -Qtdq)
+gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 ```
