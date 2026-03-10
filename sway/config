@@ -1,6 +1,7 @@
 exec XDG_CURRENT_DESKTOP=sway /usr/lib/xdg-desktop-portal-wlr &
 exec XDG_CURRENT_DESKTOP=sway /usr/lib/xdg-desktop-portal -r &
 
+default_border pixel 2
 
 # Default config for sway
 #
