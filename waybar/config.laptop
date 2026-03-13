@@ -26,8 +26,15 @@
     "sway/workspaces": {
         "all-outputs": false,
         "disable-scroll": true,
-        "format": "{name}",  
-        "format-icons":{}    
+        "format": "{name}",
+        "persistent-workspaces": {
+          "1": [],
+          "2": [],
+          "3": [],
+          "4": [],
+          "5": []
+      },
+        "format-icons":{}
     },
 
     // -------------------------------------------------------------------------
