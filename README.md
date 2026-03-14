@@ -26,3 +26,5 @@ wallpaper:
 
 the rice itself: 
 https://media.discordapp.net/attachments/906439569312985108/1482350466934505575/image.png?ex=69b6a1f4&is=69b55074&hm=7aa91d33af7f5b18aa15233c6ec76f5a4745427382211b945bb40a1c7b75846f&=&format=webp&quality=lossless&width=1545&height=966
+
+https://media.discordapp.net/attachments/906439569312985108/1482351639397666856/image.png?ex=69b6a30b&is=69b5518b&hm=06074e76c9f9a0c68b5d06801f20cfa29c7c2e4ae3660f319d118758a395b0e2&=&format=webp&quality=lossless&width=1545&height=966
