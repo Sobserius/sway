@@ -1,9 +1,9 @@
 @define-color waybar-bg #323232;
 @define-color foreground #999999;
-@define-color accent #777777;
+@define-color accent #555555;
 @define-color urgent #999999;
 @define-color workspace-focused-bg #323232;
-@define-color workspace-inactive-fg #777777;
+@define-color workspace-inactive-fg #555555;
 @define-color workspace-focused-fg #999999;
 @define-color workspace-urgent-fg #000000;
 @define-color workspace-urgent-bg #999999;
@@ -37,9 +37,10 @@
     padding-left: 0;
 }
 
+
 #network.disconnected {
     color: @foreground;
-    background: @workspace-urgent-bg;
+    background: @waybar-bg;
 }
 
 #workspaces button {
@@ -49,6 +50,12 @@
     padding-left: 10px;
     padding-right: 10px;
     color: @workspace-inactive-fg;
+}
+
+#workspaces button:hover {
+    background-color: @foreground;
+    color: @waybar-bg;
+    border-color: @foreground;
 }
 
 #workspaces button.focused:hover {
