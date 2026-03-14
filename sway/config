@@ -1,8 +1,15 @@
 exec XDG_CURRENT_DESKTOP=sway /usr/lib/xdg-desktop-portal-wlr &
 exec XDG_CURRENT_DESKTOP=sway /usr/lib/xdg-desktop-portal -r &
+exec gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+exec gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-Dark'
 
 default_border pixel 4
 gaps inner 10
+
+client.focused          #777777 #323232 #999999 #999999 #999999
+client.focused_inactive #555555 #2a2a2a #aaaaaa #777777 #555555
+client.unfocused        #555555 #2a2a2a #aaaaaa #777777 #555555
+client.urgent           #ffffff #777777 #000000 #999999 #999999
 
 # Default config for sway
 #
