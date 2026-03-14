@@ -18,4 +18,6 @@ Optional:
 ```console
 sudo pacman -Rns $(pacman -Qtdq)
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
+gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
+gsettings set org.gnome.desktop.interface gtk-theme'Adwaita-dark'
 ```
