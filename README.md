@@ -21,3 +21,8 @@ gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
 gsettings set org.gnome.desktop.interface gtk-theme'Adwaita-dark'
 ```
+wallpaper: 
+```https://d1nn9x4fgzyvn4.cloudfront.net/styles/860x645/s3/2021-01/SC196248.4x3.jpg```
+
+the rice itself: 
+https://media.discordapp.net/attachments/906439569312985108/1482345148498313366/image.png?ex=69b69d00&is=69b54b80&hm=b02bb0c409838350ddecae9065a789321ab20536cfa620e88e74b514319f85fb&=&format=webp&quality=lossless&width=1504&height=846
