@@ -25,4 +25,4 @@ wallpaper:
 ```https://d1nn9x4fgzyvn4.cloudfront.net/styles/860x645/s3/2021-01/SC196248.4x3.jpg```
 
 the rice itself: 
-https://media.discordapp.net/attachments/906439569312985108/1482345148498313366/image.png?ex=69b69d00&is=69b54b80&hm=b02bb0c409838350ddecae9065a789321ab20536cfa620e88e74b514319f85fb&=&format=webp&quality=lossless&width=1504&height=846
+https://media.discordapp.net/attachments/906439569312985108/1482350466934505575/image.png?ex=69b6a1f4&is=69b55074&hm=7aa91d33af7f5b18aa15233c6ec76f5a4745427382211b945bb40a1c7b75846f&=&format=webp&quality=lossless&width=1545&height=966
