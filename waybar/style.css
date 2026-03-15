@@ -50,12 +50,18 @@
     padding-left: 10px;
     padding-right: 10px;
     color: @workspace-inactive-fg;
+    background-color: @waybar-bg;
 }
 
 #workspaces button:hover {
     background-color: @foreground;
     color: @waybar-bg;
     border-color: @foreground;
+}
+
+#workspaces button:active {
+    background-color: #000000;
+    color: @foreground;
 }
 
 #workspaces button.focused:hover {
