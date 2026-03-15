@@ -46,7 +46,7 @@
 
 #workspaces button {
     transition: none;
-    border-top: 2px solid transparent;
+    border-top: 4px solid transparent;
     padding-bottom: 2px;
     padding-left: 10px;
     padding-right: 10px;
