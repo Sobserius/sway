@@ -59,10 +59,6 @@
     border-color: @foreground;
 }
 
-#workspaces button:active {
-    background-color: #000000;
-    color: @foreground;
-}
 
 #workspaces button.focused:hover {
     color: @workspace-focused-bg;
