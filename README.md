@@ -19,7 +19,7 @@ Optional:
 sudo pacman -Rns $(pacman -Qtdq)
 gsettings set org.cinnamon.desktop.default-applications.terminal exec kitty
 gsettings set org.gnome.desktop.interface color-scheme 'prefer-dark'
-gsettings set org.gnome.desktop.interface gtk-theme'Adwaita-dark'
+gsettings set org.gnome.desktop.interface gtk-theme 'Adwaita-dark'
 ```
 wallpaper: 
 ```https://d1nn9x4fgzyvn4.cloudfront.net/styles/860x645/s3/2021-01/SC196248.4x3.jpg```
